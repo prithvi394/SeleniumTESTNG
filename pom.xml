@@ -29,6 +29,10 @@
                         <suiteXmlFile>TestNG.xml</suiteXmlFile>
                         <!--  suiteXmlFile>testngnew.xml</suiteXmlFile-->
                     </suiteXmlFiles>
+                    
+                    <systemPropertyVariables>
+                    	<environment>${env.user}</environment>
+                    </systemPropertyVariables>
                   
                 </configuration>
             </plugin>

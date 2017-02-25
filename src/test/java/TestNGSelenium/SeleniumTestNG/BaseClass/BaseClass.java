@@ -55,7 +55,7 @@ public class BaseClass {
 	@Parameters("browser")
 	@BeforeClass
 	public synchronized void  projectDeclaration(String browser) throws MalformedURLException{
-		
+		System.out.println(System.getProperty("environment"));
 		driver=BaseClass.declareDriver(browser);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(baseURL);
