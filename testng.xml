@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="8">
+   
+    
+    <test name="Test1">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+		<class name="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping"></class>
+      	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test2"></class>
+      	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test4"></class>
+      	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test5"></class>
+      	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test1"></class>
+      	
+    </classes>
+   </test> 
+   
+  
+
+      <test name="Test2">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+        <class name="TestNGSelenium.SeleniumTestNG.Tests.Test6"></class>
+      	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test7"></class>
+    </classes>
+   </test> 
+   
+   
+    <test name="Test5">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      	 
+      	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test10"></class>
+    </classes>
+   </test> 
+   
+  
+    <test name="Test3">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test9"></class>
+      	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test8"></class>
+    </classes>
+   </test> 
+   
+   </suite> <!-- Suite -->

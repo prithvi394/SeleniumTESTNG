@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="8" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test8">
+        <methods>
+          <include name="projectDeclaration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test8 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test10">
+        <methods>
+          <include name="projectDeclaration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test10 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test6">
+        <methods>
+          <include name="projectDeclaration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test6 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test4">
+        <methods>
+          <include name="projectDeclaration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test4 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test1">
+        <methods>
+          <include name="projectDeclaration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test1 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="projectDeclaration"/>
+        </methods>
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test2 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test7">
+        <methods>
+          <include name="tearDown"/>
+          <include name="projectDeclaration"/>
+        </methods>
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test7 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test5">
+        <methods>
+          <include name="projectDeclaration"/>
+          <include name="testSteps" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test5 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping">
+        <methods>
+          <include name="BeforeGroups"/>
+          <include name="afterMethod"/>
+          <include name="AfterGroups"/>
+          <include name="BMW3Series"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test9">
+        <methods>
+          <include name="projectDeclaration"/>
+          <include name="tearDown"/>
+          <include name="testExcelHelper"/>
+        </methods>
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test9 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

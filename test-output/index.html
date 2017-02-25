@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Prithviraj\workspace\SeleniumTestNG\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" hash-for-method="BMW3Series">BMW3Series</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.Test5" hash-for-method="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" hash-for-method="AudiA6">AudiA6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" hash-for-method="BMWX3">BMWX3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" hash-for-method="HondaAccord">HondaAccord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.Test10" hash-for-method="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.Test8" hash-for-method="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.Test9" hash-for-method="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.Test6" hash-for-method="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.Test7" hash-for-method="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.Test4" hash-for-method="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.Test1" hash-for-method="testSteps({LoginId=prithvitest@gmail.com, SearchCategory=Test1, Quantity=Test1, Tags =Test1, Password=passw0rd...)">testSteps({LoginId=prithvitest@gmail.com, SearchCategory=Test1, Quantity=Test1, Tags =Test1, Password=passw0rd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestNGSelenium.SeleniumTestNG.Tests.Test2" hash-for-method="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BMW3Series">
+                  </a> <!-- BMW3Series -->
+                  <span class="method-name">BMW3Series</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:174)
+	at junit.framework.Assert.assertEquals(Assert.java:181)
+	at TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping.BMW3Series(TestNG_Grouping.java:34)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.Test5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">
+                  </a> <!-- testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...) -->
+                  <span class="method-name">testSteps</span>
+                  <span class="parameters">({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;accoun&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Vayuputhra&apos;, ip: &apos;192.168.105.2&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=8784, browserVersion=51.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 1bbc6ad8-7c19-4b50-8bbb-e504bf077aef
+*** Element info: {Using=xpath, value=//a[@class=&apos;accoun&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at TestNGSelenium.SeleniumTestNG.Tests.Test5.testSteps(Test5.java:38)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.Test9</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">
+                  </a> <!-- testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...) -->
+                  <span class="method-name">testSteps</span>
+                  <span class="parameters">({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.Test6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">
+                  </a> <!-- testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...) -->
+                  <span class="method-name">testSteps</span>
+                  <span class="parameters">({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AudiA6">
+                  </a> <!-- AudiA6 -->
+                  <span class="method-name">AudiA6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BMWX3">
+                  </a> <!-- BMWX3 -->
+                  <span class="method-name">BMWX3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HondaAccord">
+                  </a> <!-- HondaAccord -->
+                  <span class="method-name">HondaAccord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.Test7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">
+                  </a> <!-- testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...) -->
+                  <span class="method-name">testSteps</span>
+                  <span class="parameters">({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.Test2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">
+                  </a> <!-- testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...) -->
+                  <span class="method-name">testSteps</span>
+                  <span class="parameters">({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.Test8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">
+                  </a> <!-- testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...) -->
+                  <span class="method-name">testSteps</span>
+                  <span class="parameters">({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.Test4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">
+                  </a> <!-- testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...) -->
+                  <span class="method-name">testSteps</span>
+                  <span class="parameters">({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.Test10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)">
+                  </a> <!-- testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...) -->
+                  <span class="method-name">testSteps</span>
+                  <span class="parameters">({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGSelenium.SeleniumTestNG.Tests.Test1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSteps({LoginId=prithvitest@gmail.com, SearchCategory=Test1, Quantity=Test1, Tags =Test1, Password=passw0rd...)">
+                  </a> <!-- testSteps({LoginId=prithvitest@gmail.com, SearchCategory=Test1, Quantity=Test1, Tags =Test1, Password=passw0rd...) -->
+                  <span class="method-name">testSteps</span>
+                  <span class="parameters">({LoginId=prithvitest@gmail.com, SearchCategory=Test1, Quantity=Test1, Tags =Test1, Password=passw0rd, Browser=IE;FF})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Prithviraj\workspace\SeleniumTestNG\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;8&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;FireFox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping&quot;/&gt;
+      &lt;class name=&quot;TestNGSelenium.SeleniumTestNG.Tests.Test2&quot;/&gt;
+      &lt;class name=&quot;TestNGSelenium.SeleniumTestNG.Tests.Test4&quot;/&gt;
+      &lt;class name=&quot;TestNGSelenium.SeleniumTestNG.Tests.Test5&quot;/&gt;
+      &lt;class name=&quot;TestNGSelenium.SeleniumTestNG.Tests.Test1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test name=&quot;Test2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGSelenium.SeleniumTestNG.Tests.Test6&quot;/&gt;
+      &lt;class name=&quot;TestNGSelenium.SeleniumTestNG.Tests.Test7&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test name=&quot;Test5&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;FireFox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGSelenium.SeleniumTestNG.Tests.Test10&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test5 --&gt;
+  &lt;test name=&quot;Test3&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNGSelenium.SeleniumTestNG.Tests.Test9&quot;/&gt;
+      &lt;class name=&quot;TestNGSelenium.SeleniumTestNG.Tests.Test8&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Audi</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AudiA6</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">BMW</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">BMW3Series</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">BMWX3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Honda</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">HondaAccord</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSteps</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SUV</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">BMWX3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sedan</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">BMW3Series</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HondaAccord</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSteps')
+data.setCell(0, 2, 'TestNGSelenium.SeleniumTestNG.Tests.Test5')
+data.setCell(0, 3, 37112);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSteps')
+data.setCell(1, 2, 'TestNGSelenium.SeleniumTestNG.Tests.Test2')
+data.setCell(1, 3, 11182);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSteps')
+data.setCell(2, 2, 'TestNGSelenium.SeleniumTestNG.Tests.Test8')
+data.setCell(2, 3, 10770);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSteps')
+data.setCell(3, 2, 'TestNGSelenium.SeleniumTestNG.Tests.Test7')
+data.setCell(3, 3, 10711);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSteps')
+data.setCell(4, 2, 'TestNGSelenium.SeleniumTestNG.Tests.Test6')
+data.setCell(4, 3, 10495);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSteps')
+data.setCell(5, 2, 'TestNGSelenium.SeleniumTestNG.Tests.Test4')
+data.setCell(5, 3, 10460);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSteps')
+data.setCell(6, 2, 'TestNGSelenium.SeleniumTestNG.Tests.Test9')
+data.setCell(6, 3, 10128);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSteps')
+data.setCell(7, 2, 'TestNGSelenium.SeleniumTestNG.Tests.Test10')
+data.setCell(7, 3, 8431);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSteps')
+data.setCell(8, 2, 'TestNGSelenium.SeleniumTestNG.Tests.Test1')
+data.setCell(8, 3, 7137);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'AudiA6')
+data.setCell(9, 2, 'TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping')
+data.setCell(9, 3, 11);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'HondaAccord')
+data.setCell(10, 2, 'TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping')
+data.setCell(10, 3, 6);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'BMW3Series')
+data.setCell(11, 2, 'TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping')
+data.setCell(11, 3, 6);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'BMWX3')
+data.setCell(12, 2, 'TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping')
+data.setCell(12, 3, 4);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">HondaAccord</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Reporting from Honda class</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AudiA6</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Reporting from Audi A6 class</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">BMWX3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Reporting from BMW class</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test5</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testExcelHelper</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test7</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testExcelHelper</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test4</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testExcelHelper</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test8</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testExcelHelper</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test1</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testExcelHelper</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test9</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">testExcelHelper</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">1947 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1955 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test10</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">projectDeclaration(FireFox)</span>
+                <span class="method-start">1955 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test6</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">projectDeclaration(Chrome)</span>
+                <span class="method-start">1955 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test9</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">projectDeclaration(Chrome)</span>
+                <span class="method-start">1956 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BeforeGroups</span>
+                <span class="method-start">1963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AudiA6</span>
+                <span class="method-start">1964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AfterGroups</span>
+                <span class="method-start">1983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BeforeGroups</span>
+                <span class="method-start">1985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1985 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BMW3Series</span>
+                <span class="method-start">1986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1997 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BMWX3</span>
+                <span class="method-start">1998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">2007 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HondaAccord</span>
+                <span class="method-start">2014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">2026 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">2030 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">projectDeclaration(FireFox)</span>
+                <span class="method-start">2031 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test10</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</span>
+                <span class="method-start">16085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSteps status=SUCCESS method=Test10.testSteps(java.util.Map)[pri:0, instance:Tes...)</span>
+                <span class="method-start">24522 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</span>
+                <span class="method-start">24744 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test6</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</span>
+                <span class="method-start">30514 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test9</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</span>
+                <span class="method-start">33972 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSteps status=SUCCESS method=Test2.testSteps(java.util.Map)[pri:0, instance:Test...)</span>
+                <span class="method-start">35929 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test4</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">projectDeclaration(FireFox)</span>
+                <span class="method-start">37883 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test6</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSteps status=SUCCESS method=Test6.testSteps(java.util.Map)[pri:0, instance:Test...)</span>
+                <span class="method-start">41016 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test7</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">projectDeclaration(Chrome)</span>
+                <span class="method-start">42380 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test9</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSteps status=SUCCESS method=Test9.testSteps(java.util.Map)[pri:0, instance:Test...)</span>
+                <span class="method-start">44103 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test8</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">projectDeclaration(Chrome)</span>
+                <span class="method-start">45468 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</span>
+                <span class="method-start">49878 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test8</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</span>
+                <span class="method-start">56806 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test7</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</span>
+                <span class="method-start">59098 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test4</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSteps status=SUCCESS method=Test4.testSteps(java.util.Map)[pri:0, instance:Test...)</span>
+                <span class="method-start">60350 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test5</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">projectDeclaration(FireFox)</span>
+                <span class="method-start">62721 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test8</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSteps status=SUCCESS method=Test8.testSteps(java.util.Map)[pri:0, instance:Test...)</span>
+                <span class="method-start">67578 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test7</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSteps status=SUCCESS method=Test7.testSteps(java.util.Map)[pri:0, instance:Test...)</span>
+                <span class="method-start">69811 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test5</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSteps({LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd...)</span>
+                <span class="method-start">73815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSteps status=FAILURE method=Test5.testSteps(java.util.Map)[pri:0, instance:Test...)</span>
+                <span class="method-start">110936 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.Test1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">projectDeclaration(FireFox)</span>
+                <span class="method-start">112607 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSteps({LoginId=prithvitest@gmail.com, SearchCategory=Test1, Quantity=Test1, Tags =Test1, Password=passw0rd...)</span>
+                <span class="method-start">122483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSteps status=SUCCESS method=Test1.testSteps(java.util.Map)[pri:0, instance:Test...)</span>
+                <span class="method-start">129622 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">131039 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

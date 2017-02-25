@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="13" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[Reporting from Audi A6 class]]>
+    </line>
+    <line>
+      <![CDATA[Reporting from BMW class]]>
+    </line>
+    <line>
+      <![CDATA[Reporting from Honda class]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="129111" started-at="2017-02-23T00:42:05Z" finished-at="2017-02-23T00:44:14Z">
+    <groups>
+      <group name="SUV">
+        <method signature="TestNG_Grouping.BMWX3()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="BMWX3" class="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping"/>
+      </group> <!-- SUV -->
+      <group name="Audi">
+        <method signature="TestNG_Grouping.AudiA6()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="AudiA6" class="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping"/>
+      </group> <!-- Audi -->
+      <group name="Regression">
+        <method signature="Test1.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test1@3f49dace]" name="testSteps" class="TestNGSelenium.SeleniumTestNG.Tests.Test1"/>
+        <method signature="Test2.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test2@5bcab519]" name="testSteps" class="TestNGSelenium.SeleniumTestNG.Tests.Test2"/>
+        <method signature="Test4.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test4@5f2108b5]" name="testSteps" class="TestNGSelenium.SeleniumTestNG.Tests.Test4"/>
+        <method signature="Test5.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test5@31a5c39e]" name="testSteps" class="TestNGSelenium.SeleniumTestNG.Tests.Test5"/>
+        <method signature="Test6.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test6@64bfbc86]" name="testSteps" class="TestNGSelenium.SeleniumTestNG.Tests.Test6"/>
+        <method signature="Test7.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test7@64bf3bbf]" name="testSteps" class="TestNGSelenium.SeleniumTestNG.Tests.Test7"/>
+        <method signature="Test10.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test10@60c6f5b]" name="testSteps" class="TestNGSelenium.SeleniumTestNG.Tests.Test10"/>
+        <method signature="Test8.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test8@66480dd7]" name="testSteps" class="TestNGSelenium.SeleniumTestNG.Tests.Test8"/>
+        <method signature="Test9.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test9@4e1d422d]" name="testSteps" class="TestNGSelenium.SeleniumTestNG.Tests.Test9"/>
+      </group> <!-- Regression -->
+      <group name="BMW">
+        <method signature="TestNG_Grouping.BMW3Series()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="BMW3Series" class="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.BMWX3()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="BMWX3" class="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping"/>
+      </group> <!-- BMW -->
+      <group name="Sedan">
+        <method signature="TestNG_Grouping.BMW3Series()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="BMW3Series" class="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.HondaAccord()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="HondaAccord" class="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping"/>
+      </group> <!-- Sedan -->
+      <group name="Honda">
+        <method signature="TestNG_Grouping.HondaAccord()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="HondaAccord" class="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping"/>
+      </group> <!-- Honda -->
+    </groups>
+    <test name="Test5" duration-ms="27209" started-at="2017-02-23T00:42:05Z" finished-at="2017-02-23T00:42:32Z">
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test10">
+        <test-method status="PASS" signature="projectDeclaration(java.lang.String)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test10@60c6f5b]" name="projectDeclaration" is-config="true" duration-ms="14115" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectDeclaration -->
+        <test-method status="PASS" signature="testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test10@60c6f5b]" name="testSteps" duration-ms="8431" started-at="2017-02-22T19:42:19Z" data-provider="GetExcelInputs" finished-at="2017-02-22T19:42:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test10@60c6f5b]" name="tearDown" is-config="true" duration-ms="4615" started-at="2017-02-22T19:42:27Z" finished-at="2017-02-22T19:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSteps status=SUCCESS method=Test10.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test10@60c6f5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test10 -->
+    </test> <!-- Test5 -->
+    <test name="Test3" duration-ms="67234" started-at="2017-02-23T00:42:05Z" finished-at="2017-02-23T00:43:12Z">
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test9">
+        <test-method status="PASS" signature="testExcelHelper()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test9@4e1d422d]" name="testExcelHelper" is-config="true" duration-ms="1923" started-at="2017-02-22T19:42:03Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExcelHelper -->
+        <test-method status="PASS" signature="projectDeclaration(java.lang.String)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test9@4e1d422d]" name="projectDeclaration" is-config="true" duration-ms="32015" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectDeclaration -->
+        <test-method status="PASS" signature="testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test9@4e1d422d]" name="testSteps" duration-ms="10128" started-at="2017-02-22T19:42:37Z" data-provider="GetExcelInputs" finished-at="2017-02-22T19:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test9@4e1d422d]" name="tearDown" is-config="true" duration-ms="1365" started-at="2017-02-22T19:42:47Z" finished-at="2017-02-22T19:42:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSteps status=SUCCESS method=Test9.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test9@4e1d422d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test9 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test8">
+        <test-method status="PASS" signature="projectDeclaration(java.lang.String)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test8@66480dd7]" name="projectDeclaration" is-config="true" duration-ms="11338" started-at="2017-02-22T19:42:48Z" finished-at="2017-02-22T19:42:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectDeclaration -->
+        <test-method status="PASS" signature="testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test8@66480dd7]" name="testSteps" duration-ms="10770" started-at="2017-02-22T19:42:59Z" data-provider="GetExcelInputs" finished-at="2017-02-22T19:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test8@66480dd7]" name="tearDown" is-config="true" duration-ms="1584" started-at="2017-02-22T19:43:10Z" finished-at="2017-02-22T19:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSteps status=SUCCESS method=Test8.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test8@66480dd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test8 -->
+    </test> <!-- Test3 -->
+    <test name="Test2" duration-ms="69428" started-at="2017-02-23T00:42:05Z" finished-at="2017-02-23T00:43:14Z">
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test6">
+        <test-method status="PASS" signature="projectDeclaration(java.lang.String)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test6@64bfbc86]" name="projectDeclaration" is-config="true" duration-ms="28553" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectDeclaration -->
+        <test-method status="PASS" signature="testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test6@64bfbc86]" name="testSteps" duration-ms="10495" started-at="2017-02-22T19:42:33Z" data-provider="GetExcelInputs" finished-at="2017-02-22T19:42:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test6@64bfbc86]" name="tearDown" is-config="true" duration-ms="1364" started-at="2017-02-22T19:42:44Z" finished-at="2017-02-22T19:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSteps status=SUCCESS method=Test6.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test6@64bfbc86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test6 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test7">
+        <test-method status="PASS" signature="projectDeclaration(java.lang.String)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test7@64bf3bbf]" name="projectDeclaration" is-config="true" duration-ms="16716" started-at="2017-02-22T19:42:45Z" finished-at="2017-02-22T19:43:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectDeclaration -->
+        <test-method status="PASS" signature="testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test7@64bf3bbf]" name="testSteps" duration-ms="10711" started-at="2017-02-22T19:43:02Z" data-provider="GetExcelInputs" finished-at="2017-02-22T19:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test7@64bf3bbf]" name="tearDown" is-config="true" duration-ms="1546" started-at="2017-02-22T19:43:12Z" finished-at="2017-02-22T19:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSteps status=SUCCESS method=Test7.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test7@64bf3bbf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test7 -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="129111" started-at="2017-02-23T00:42:05Z" finished-at="2017-02-23T00:44:14Z">
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test2">
+        <test-method status="PASS" signature="projectDeclaration(java.lang.String)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test2@5bcab519]" name="projectDeclaration" is-config="true" duration-ms="22712" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectDeclaration -->
+        <test-method status="PASS" signature="testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test2@5bcab519]" name="testSteps" duration-ms="11182" started-at="2017-02-22T19:42:27Z" data-provider="GetExcelInputs" finished-at="2017-02-22T19:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test2@5bcab519]" name="tearDown" is-config="true" duration-ms="1954" started-at="2017-02-22T19:42:39Z" finished-at="2017-02-22T19:42:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSteps status=SUCCESS method=Test2.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test2@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test2 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test1">
+        <test-method status="PASS" signature="projectDeclaration(java.lang.String)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test1@3f49dace]" name="projectDeclaration" is-config="true" duration-ms="9875" started-at="2017-02-22T19:43:55Z" finished-at="2017-02-22T19:44:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectDeclaration -->
+        <test-method status="PASS" signature="testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test1@3f49dace]" name="testSteps" duration-ms="7137" started-at="2017-02-22T19:44:05Z" data-provider="GetExcelInputs" finished-at="2017-02-22T19:44:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginId=prithvitest@gmail.com, SearchCategory=Test1, Quantity=Test1, Tags =Test1, Password=passw0rd, Browser=IE;FF}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test1@3f49dace]" name="tearDown" is-config="true" duration-ms="1417" started-at="2017-02-22T19:44:12Z" finished-at="2017-02-22T19:44:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSteps status=SUCCESS method=Test1.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test1@3f49dace] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test1 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="BeforeTest" is-config="true" duration-ms="1" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="beforeClass" is-config="true" duration-ms="2" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="BeforeGroups()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="BeforeGroups" is-config="true" duration-ms="1" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeGroups -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AudiA6()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="AudiA6" duration-ms="11" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reporting from Audi A6 class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AudiA6 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="afterMethod" is-config="true" duration-ms="5" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AfterGroups()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="AfterGroups" is-config="true" duration-ms="0" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterGroups -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="BeforeGroups()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="BeforeGroups" is-config="true" duration-ms="0" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeGroups -->
+        <test-method status="FAIL" signature="BMW3Series()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="BMW3Series" duration-ms="6" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected:<true> but was:<false>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:174)
+	at junit.framework.Assert.assertEquals(Assert.java:181)
+	at TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping.BMW3Series(TestNG_Grouping.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMW3Series -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="BMWX3()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="BMWX3" duration-ms="4" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reporting from BMW class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BMWX3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="HondaAccord()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="HondaAccord" duration-ms="6" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reporting from Honda class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HondaAccord -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="afterMethod" is-config="true" duration-ms="4" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-02-22T19:42:05Z" finished-at="2017-02-22T19:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping@e45f292]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-02-22T19:44:14Z" finished-at="2017-02-22T19:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test5">
+        <test-method status="PASS" signature="projectDeclaration(java.lang.String)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test5@31a5c39e]" name="projectDeclaration" is-config="true" duration-ms="11094" started-at="2017-02-22T19:43:05Z" finished-at="2017-02-22T19:43:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectDeclaration -->
+        <test-method status="FAIL" signature="testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test5@31a5c39e]" name="testSteps" duration-ms="37112" started-at="2017-02-22T19:43:16Z" data-provider="GetExcelInputs" finished-at="2017-02-22T19:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[@class='accoun']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vayuputhra', ip: '192.168.105.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=8784, browserVersion=51.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 1bbc6ad8-7c19-4b50-8bbb-e504bf077aef
+*** Element info: {Using=xpath, value=//a[@class='accoun']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='accoun']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Vayuputhra', ip: '192.168.105.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=8784, browserVersion=51.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 1bbc6ad8-7c19-4b50-8bbb-e504bf077aef
+*** Element info: {Using=xpath, value=//a[@class='accoun']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at TestNGSelenium.SeleniumTestNG.Tests.Test5.testSteps(Test5.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test5@31a5c39e]" name="tearDown" is-config="true" duration-ms="1671" started-at="2017-02-22T19:43:54Z" finished-at="2017-02-22T19:43:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSteps status=FAILURE method=Test5.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test5@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test5 -->
+      <class name="TestNGSelenium.SeleniumTestNG.Tests.Test4">
+        <test-method status="PASS" signature="projectDeclaration(java.lang.String)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test4@5f2108b5]" name="projectDeclaration" is-config="true" duration-ms="11995" started-at="2017-02-22T19:42:40Z" finished-at="2017-02-22T19:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectDeclaration -->
+        <test-method status="PASS" signature="testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test4@5f2108b5]" name="testSteps" duration-ms="10460" started-at="2017-02-22T19:42:52Z" data-provider="GetExcelInputs" finished-at="2017-02-22T19:43:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LoginId=madhuratest@gmail.com, SearchCategory=Test2, Quantity=Test2, Tags =Test2, Password=passw0rd, Browser=IE;FF;CE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test4@5f2108b5]" name="tearDown" is-config="true" duration-ms="2371" started-at="2017-02-22T19:43:03Z" finished-at="2017-02-22T19:43:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSteps status=SUCCESS method=Test4.testSteps(java.util.Map)[pri:0, instance:TestNGSelenium.SeleniumTestNG.Tests.Test4@5f2108b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSelenium.SeleniumTestNG.Tests.Test4 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
