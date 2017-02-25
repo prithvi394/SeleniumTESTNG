@@ -33,7 +33,8 @@ logger=report.startTest(this.getClass().getSimpleName());
 		logger.log(LogStatus.PASS, "Clicked on SignIn button");
 		SignInSignUpPageObj.enterCredsSubmit(test.get("LoginId"),test.get("Password"));
 		logger.log(LogStatus.PASS, "Entered Login Credentials");
-		Thread.sleep(5000);
+		Thread.sleep(1000);
+		Thread.sleep(1000);
 		
 		String loginID=driver.findElement(By.xpath("//a[@class='account']")).getText();
 		System.out.println(loginID);

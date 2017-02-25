@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="101.396" tests="13" errors="0" skipped="0" failures="2">
+<testsuite name="TestSuite" time="98.022" tests="13" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,8 +62,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="AudiA6" classname="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" time="0.003"/>
-  <testcase name="BMW3Series" classname="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" time="0.02">
+  <testcase name="AudiA6" classname="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" time="0.005"/>
+  <testcase name="BMW3Series" classname="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" time="0.021">
     <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<true> but was:<false>
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.Assert.failNotEquals(Assert.java:329)
@@ -80,23 +80,23 @@ This method runs before every method
 Running Test - BMW 3 Series
 </system-out>
   </testcase>
-  <testcase name="BMWX3" classname="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" time="0.004"/>
+  <testcase name="BMWX3" classname="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" time="0.002"/>
   <testcase name="HondaAccord" classname="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping" time="0.001"/>
-  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test10" time="0.964"/>
-  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test2" time="11.106"/>
-  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test6" time="11.084"/>
-  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test9" time="11.671"/>
-  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test4" time="0.862"/>
-  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test7" time="9.582"/>
-  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test8" time="11.236"/>
-  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test5" time="37.206">
-    <failure message="Unable to locate element: //a[@class=&apos;accoun&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vayuputhra&apos;, ip: &apos;192.168.105.2&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=9436, browserVersion=51.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]&#10;Session ID: fb5ccb63-2605-4ed0-b961-b1aacc5b9c33&#10;*** Element info: {Using=xpath, value=//a[@class=&apos;accoun&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='accoun']
+  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test10" time="8.896"/>
+  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test2" time="0.856"/>
+  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test9" time="11.207"/>
+  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test6" time="11.5"/>
+  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test4" time="1.706"/>
+  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test8" time="8.395"/>
+  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test7" time="11.183"/>
+  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test5" time="36.977">
+    <failure message="Unable to locate element: //a[@class=&apos;accoun&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;Vayuputhra&apos;, ip: &apos;192.168.105.2&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=9676, browserVersion=51.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]&#10;Session ID: c9c0a831-9c76-46e4-b712-6af56fde05f2&#10;*** Element info: {Using=xpath, value=//a[@class=&apos;accoun&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class='accoun']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'Vayuputhra', ip: '192.168.105.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_65'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=9436, browserVersion=51.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
-Session ID: fb5ccb63-2605-4ed0-b961-b1aacc5b9c33
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=9676, browserVersion=51.0.1, platformVersion=6.2, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: c9c0a831-9c76-46e4-b712-6af56fde05f2
 *** Element info: {Using=xpath, value=//a[@class='accoun']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -117,13 +117,13 @@ Session ID: fb5ccb63-2605-4ed0-b961-b1aacc5b9c33
     <system-out>Browser invoked!!
 class TestNGSelenium.SeleniumTestNG.Tests.Test5
 </system-out>
-    <system-err>Feb 25, 2017 3:37:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err>Feb 25, 2017 3:47:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1488055030292	Marionette	WARN	Using deprecated data structure for setting timeouts
+1488055669765	Marionette	WARN	Using deprecated data structure for setting timeouts
 JavaScript warning: http://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js, line 18: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js, line 18: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js, line 18: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 </system-err>
   </testcase>
-  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test1" time="7.657"/>
+  <testcase name="testSteps" classname="TestNGSelenium.SeleniumTestNG.Tests.Test1" time="7.273"/>
 </testsuite>
