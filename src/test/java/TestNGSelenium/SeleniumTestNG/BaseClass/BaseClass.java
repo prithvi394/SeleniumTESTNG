@@ -39,7 +39,6 @@ public class BaseClass {
 	public static final String USERNAME = "prithvi5";
 	public static final String ACCESS_KEY = "EGRjajz2xLJ7zXbJCPon";
 	public static final String URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
-	
 	public static Map <String, Map<String, String>> arrayExcelReader=new HashMap<String, Map<String, String>>();
 	protected  ExtentReports report;
 	protected ExtentTest logger;
@@ -60,6 +59,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(baseURL);
 		System.out.println("Browser invoked!!");
+		System.out.println("BaseClass!!");
 		synchronized(this){
 		report=new ExtentReports("C:\\Users\\Prithviraj\\SeleniumExecutionResults\\ExtentReports\\TestNGGrid.html",false);
 		}
@@ -67,6 +67,7 @@ public class BaseClass {
 		registrationPageObj=PageFactory.initElements(driver, RegistrationPage.class);
 		SignInSignUpPageObj=PageFactory.initElements(driver, SignInSignUpPage.class);
 	}
+	
 	
 
 	public synchronized static WebDriver declareDriver(String browser) throws MalformedURLException{

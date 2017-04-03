@@ -5,7 +5,7 @@
     
     <test name="Test1">
     <parameter name="browser" value="FireFox"/>
-    <classes>
+    	<classes>
 		<class name="TestNGSelenium.SeleniumTestNG.Tests.TestNG_Grouping"></class>
       	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test2"></class>
       	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test4"></class>
@@ -17,7 +17,7 @@
    
   
 
-      <test name="Test2">
+   <!--    <test name="Test2">
     <parameter name="browser" value="Chrome"/>
     <classes>
         <class name="TestNGSelenium.SeleniumTestNG.Tests.Test6"></class>
@@ -41,6 +41,6 @@
       	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test9"></class>
       	<class name="TestNGSelenium.SeleniumTestNG.Tests.Test8"></class>
     </classes>
-   </test> 
+   </test> --> 
    
    </suite> <!-- Suite -->
